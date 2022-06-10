@@ -2,7 +2,7 @@ let Hermes = [
     {
         displayName: "CodeGiyu",
         name: "Edward-Precious Omegbu",
-        image: "img/giyu.png",
+        image: "img/giyu.jpg",
         age: 26,
         complexion: "Dark",
         thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
@@ -13,7 +13,7 @@ let Hermes = [
     {
         displayName: "Natacha",
         name: "Natacha Danbadan",
-        image: "img/nat.png",
+        image: "img/nat.jpg",
         age: "???",
         complexion: "Black",
         thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
@@ -24,7 +24,7 @@ let Hermes = [
     // {
     //     displayName: "Adedamola",
     //     name: "Jimi-Bada Adedamola",
-    //     image: "img/bada.png",
+    //     image: "img/bada.jpg",
     //     age: 24,
     //     complexion: "Dark",
     //     thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
@@ -35,7 +35,7 @@ let Hermes = [
     {
         displayName: "Fawsiyyah",
         name: "Fawsiyyah Lamidi",
-        image: "img/zee.png",
+        image: "img/zee.jpg",
         age: 17,
         complexion: "Fair?",
         thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
@@ -46,7 +46,7 @@ let Hermes = [
     // {
     //     displayName: "DeeVeee",
     //     name: "Obi Divine",
-    //     image: "img/divi.png",
+    //     image: "img/divi.jpg",
     //     age: 22,
     //     complexion: "Dark",
     //     thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
@@ -57,7 +57,7 @@ let Hermes = [
     // {
     //     displayName: "Ifechukwude",
     //     name: "Ifechukwude Nwaodor",
-    //     image: "img/ify.png",
+    //     image: "img/ify.jpg",
     //     age: "??",
     //     complexion: "Fair",
     //     thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
@@ -68,7 +68,7 @@ let Hermes = [
     // {
     //     displayName: "Ayordeji",
     //     name: "Ayordeji Eluyemi",
-    //     image: "img/ayor.png",
+    //     image: "img/ayor.jpg",
     //     age: 26,
     //     complexion: "dark",
     //     thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
@@ -79,7 +79,7 @@ let Hermes = [
     // {
     //     displayName: "Michael",
     //     name: "Okike Chinonso Michael",
-    //     image: "img/mike.png",
+    //     image: "img/mike.jpg",
     //     age: "??",
     //     complexion: "Dark",
     //     thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
@@ -90,7 +90,7 @@ let Hermes = [
     // {
     //     displayName: "Sisolis Wayne",
     //     name: "Akorede Mohammed",
-    //     image: "img/wayne.png",
+    //     image: "img/wayne.jpg",
     //     age: "??",
     //     complexion: "Dark",
     //     thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
@@ -120,3 +120,4 @@ let Hermes = [
 // function nameAlert(i) {
 //     alert(Hermes[i].name);
 // }
+

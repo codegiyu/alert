@@ -5,20 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <main>
-        <div class="container">
-            <div id="row" class="row">
-                
+        <div class="container d-flex align-items-center">
+            <div class="swiper mt-5">
+                <div id="row" class="swiper-wrapper">
+                    <div class="swiper-slide bg-white">
+                        <div class="card-wrap">
+                            <div class="img-container mb-5 ratio ratio-1x1">
+                                <img src="img/giyu.jpg" alt="" class="img-fluid">
+                            </div>
+                            <p class="name text-center fs-sm">Edward-Precious Omegbu</p>
+                            <h6 class="display-6 fw-bold text-center my-1"><span style="color: purple;">"</span>CodeGiyu<span style="color: purple;">"</span></h6>
+                            <button class="alert-btn mx-auto px-4 " onclick="nameAlert(0)">Click me!</button>
+                            <div class="row bottom-row p-0" style="background-color: purple;">
+                                <div class="col-4 border-end py-2">
+                                    <h6 class="fs-3 fw-bold text-center text-white">26</h6>
+                                    <p class="text-center text-white fs-sm">years</p>
+                                </div>
+                                <div class="col-4 py-2"></div>
+                                <div class="col-4 border-start py-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="app.js"></script>
-    <script src="alert.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+        });
+    </script>
 </body>
 </html>
