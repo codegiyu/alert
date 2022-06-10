@@ -17,8 +17,8 @@ let Hermes = [
         age: "24",
         complexion: "Brown",
         thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-        bestFood: "????",
-        bestMovie: "Friday The 13th"
+        bestFood: "Banga",
+        bestMovie: "Like Stars On Earth"
     },
 
     {
@@ -122,8 +122,8 @@ for (i = 0; i < Hermes.length; i++) {
                             <h6 class="fs-3 fw-bold text-center text-white">${Hermes[i].age}</h6>
                             <p class="text-center text-white fs-sm">years</p>
                             </div>
-                            <div class="col-4 border-start p-1 d-flex align-items-center justify-content-center">
-                                <p class="food text-white text-center m-0 p-0">${Hermes[i].bestFood}</p>
+                            <div class="col-4 border-start d-flex align-items-center justify-content-center">
+                                <p class="food d-block text-white text-center m-0">${Hermes[i].bestFood}</p>
                             </div>
                         </div>
                     </div>
@@ -135,6 +135,6 @@ for (i = 0; i < Hermes.length; i++) {
 }
 
 function nameAlert(i) {
-    alert(`Hi, I'm ${Hermes[i].name} and if I had a best movie it would be ${Hermes[i].bestMovie}😎);
+    alert(`Hi, I'm ${Hermes[i].name} and if I had a best movie it would be ${Hermes[i].bestMovie}😎`);
 }
 
