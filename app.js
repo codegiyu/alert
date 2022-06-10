@@ -69,7 +69,7 @@ let Hermes = [
         displayName: "Ayordeji",
         name: "Ayordeji Eluyemi",
         image: "img/ayor.jpg",
-        age: 26,
+        age: 20,
         complexion: "dark",
         thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
         bestFood: "Fried Rice",
