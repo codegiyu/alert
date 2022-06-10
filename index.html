@@ -11,28 +11,14 @@
 </head>
 <body>
     <main>
-        <div class="container d-flex align-items-center">
+        <div class="container d-flex align-items-center pt-5 pt-lg-0">
             <div class="swiper mt-5">
                 <div id="row" class="swiper-wrapper">
-                    <div class="swiper-slide bg-white">
-                        <div class="card-wrap">
-                            <div class="img-container mb-5 ratio ratio-1x1">
-                                <img src="img/giyu.jpg" alt="" class="img-fluid">
-                            </div>
-                            <p class="name text-center fs-sm">Edward-Precious Omegbu</p>
-                            <h6 class="display-6 fw-bold text-center my-1"><span style="color: purple;">"</span>CodeGiyu<span style="color: purple;">"</span></h6>
-                            <button class="alert-btn mx-auto px-4 " onclick="nameAlert(0)">Click me!</button>
-                            <div class="row bottom-row p-0" style="background-color: purple;">
-                                <div class="col-4 border-end py-2">
-                                    <h6 class="fs-3 fw-bold text-center text-white">26</h6>
-                                    <p class="text-center text-white fs-sm">years</p>
-                                </div>
-                                <div class="col-4 py-2"></div>
-                                <div class="col-4 border-start py-2"></div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </main>
@@ -47,12 +33,22 @@
             grabCursor: true,
             centeredSlides: true,
             slidesPerView: "auto",
+            loop: true,
+            mousewheel: true,
             coverflowEffect: {
                 rotate: 50,
                 stretch: 0,
                 depth: 100,
                 modifier: 1,
                 slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
         });
     </script>
