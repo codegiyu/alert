@@ -15,7 +15,7 @@ let Hermes = [
         name: "Natacha Danbadan",
         image: "img/nat.jpg",
         age: "24",
-        complexion: "Black",
+        complexion: "Brown",
         thingsLearned: ["HTML", "CSS", "Bootstrap", "JavaScript"],
         bestFood: "????",
         bestMovie: "Friday The 13th"
@@ -135,6 +135,6 @@ for (i = 0; i < Hermes.length; i++) {
 }
 
 function nameAlert(i) {
-    alert(Hermes[i].name);
+    alert(`Hi, I'm ${Hermes[i].name} and if I had a best movie it would be ${Hermes[i].bestMovie}😎);
 }
 
